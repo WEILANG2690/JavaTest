@@ -8,10 +8,10 @@ public class Test9x9TableLab {
 			int j = 1;
 			while (j <= 8) {
 				System.out.print(i + "x" + j + "=" + (i * j)+"\t" );
-				j++;
+				j++;//遞增+1
 			}
 			System.out.println(i + "x" + j + "=" + (i * j)+"\t" );
-			i++;
+			i++;//遞增+1
 		}
 		
 		
