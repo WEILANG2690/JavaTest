@@ -1,6 +1,10 @@
 package tw.WEILANG.myporject.VariableScope;
 
 public class TestVariableScope {
+	
+	
+	//l
+	
 
 	int a = 1;// instance variable 宣告在"class"與"method"之間的變數
 
