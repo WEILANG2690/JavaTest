@@ -12,7 +12,7 @@ public class TestOverloadEX1 {
 
 	public static void main(String[] args) {
 		TestOverloadEX1 test1 = new TestOverloadEX1();
-test1.plus(3,1);
+test1.plus(3,14);
 test1.plus(3.14, 3.14);
 
 	}
