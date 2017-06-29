@@ -12,6 +12,11 @@ public class WapperClassEX1 {
 		
 		int value2 = Integer.parseInt(number);//直接轉換成"int"型別
 		System.out.println("(value2+2)=" + (value2+2));
+		
+		Integer num=6;
+		int nums =6;
+		System.out.println("num="+(num++));
+		System.out.println("nums="+(++nums));
 	}
 
 }
