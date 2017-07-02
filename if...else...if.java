@@ -22,7 +22,9 @@ public class TestIfElseIfEx1 {
 			} else {
 				System.out.println("此月份有28天");
 			}
-		
+
+		} else {
+			System.out.println("輸入錯誤");
 		}
 	}
 
