@@ -1,7 +1,7 @@
 class Fish {
 	String name = "Nemo";
 
-	public Fish() {// this占用,需建立給17行繼承
+	public Fish() {// this占用,需建立給18行繼承
 		super();
 		System.out.println("default action");
 	}
