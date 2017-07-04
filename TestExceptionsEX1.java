@@ -20,7 +20,9 @@ public class TestExceptionsEX1 {
 			System.out.println("x/y=" + (x / y));
 		} catch (ArithmeticException e) {
 			System.out.println("e=" + e);
-			System.exit(0);
+			System.exit(0);//正常結束
+			//System.exit(1); //強迫程式結束
+			//System.exit(2); //使用其他數字,則會關閉應用程式
 		} finally { // 不管錯誤與否,一定會執行
 			System.out.println("always excute here");
 		}
