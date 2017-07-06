@@ -22,8 +22,13 @@ public class TestGenericsEX1 {
 
 		TestGenerics<Double> test2 = new TestGenerics<Double>();
 		test2.setT1(3.14);
-		double value2 = test2.getT1();
-		System.out.println("test2=" + value2);
+		double value2 = (double) test2.getT1();
+		System.out.println("test2=" + (value2+1));
+		
+		TestGenerics<Double> test3 = new TestGenerics<Double>();
+		test3.setT1(3.14);
+		double value3 =  test3.getT1();
+		System.out.println("test3=" + value3);
 	}
 
 }
