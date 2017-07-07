@@ -12,6 +12,12 @@ public class TestFileStreamBuffEX2 {
 		// FileInputStream fis1 = new FileInputStream("c:/temp/test/hello.txt");
 		BufferedInputStream bis1 = new BufferedInputStream(new FileInputStream("c:/temp/test/hello.txt"));
 
+		// 兩行
+		// FileOutputStream fos1 = new
+		// FileOutputStream("c:/temp/test/myFile.txt");
+		// BufferedOutputStream bos1 = new BufferedOutputStream(fos1);
+		
+		// 兩行變一行
 		BufferedOutputStream bos1 = new BufferedOutputStream(new FileOutputStream("c:/temp/test/hello2.txt"));
 		int data;
 		while ((data = bis1.read()) != -1) {
